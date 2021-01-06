@@ -1,0 +1,128 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+
+}
+
+section{
+width: 90%;
+margin: auto;
+}
+
+/* First Section Start */
+
+.first-section .half-left{
+    float: left;
+    width: 40%;
+    margin: auto;
+}
+
+.first-section .half-left h1{
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-weight: 500;
+
+}
+
+.first-section .half-left h2{
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    color: #FF8367;
+    font-weight: 500;
+    margin-top: -80px;
+    margin-bottom: 0px;
+}
+
+.first-section .half-left p{
+    font-size: 16px;
+    color: #3E3E3E;
+}
+
+.first-section .half-left .hire-me{
+    padding: 20px 50px;
+    font-size: 16px;
+    background-color: #FF8063;
+    border: 1px solid #FF8063;
+    border-radius: 5px;
+}
+
+.first-section .half-left a{
+    text-decoration: none;
+    color: white;
+}
+
+.first-section .half-right img{
+    width: 450px;
+}
+
+/* Second Section Start */
+.second-section{
+    overflow: hidden;
+}
+
+.second-section .half-left{
+    width: 50%;
+    float: left;
+}
+
+.second-section .half-left img{
+    width: 450px;
+}
+
+.second-section .half-right h1{
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+.second-section .half-right .hire-me{
+    padding: 20px 50px;
+    font-size: 16px;
+    background-color: #FF8063;
+    border: 1px solid #FF8063;
+    border-radius: 5px;
+}
+
+.second-section .half-right a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Start Third Section */
+
+.third-section .heading h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    color: #F46060;
+}
+
+.third-section .heading .project-heading{
+    color: #363958;
+}
+
+.third-section .project .column img{
+    width: 100%;
+}
+
+.third-section .project .column{
+    background-color: white;
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    box-shadow: 5px 5px 15px 5px #C9C9C9;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.project:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
